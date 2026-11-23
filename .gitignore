@@ -1,0 +1,22 @@
+﻿__pycache__/
+*.py[cod]
+.venv/
+venv/
+pyspark-venv/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+jars/*.jar
+
+# Local JDBC drivers
+/jars/
+
+# Unrelated or empty files
+/mysql_integration.py
+/assessment.py
+/data/Untitled.txt
+/data/assessment.py
+/data/pyspark_data_cleaning.py
